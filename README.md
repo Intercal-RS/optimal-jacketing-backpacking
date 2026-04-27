@@ -1,7 +1,8 @@
 # optimal-jacketing-backpacking
 Tools to determine the optimal thresholds for jacketing/backpacking clues in RS3. Currently only elite clues are supported.
 
-See main.py's file-level comment for the overall structure.
+See main.py's file-level comment for the overall structure and configuration options.
+If you are interested specifically in the maths, see mdp.py.
 Timings per clue step are taken from modified JSON exports of standard Clue Trainer method packs.
 
 Some analysis tools for interpreting the timing thresholds are provided as well:
@@ -11,3 +12,12 @@ Some analysis tools for interpreting the timing thresholds are provided as well:
 These analysis tools can take in arbitrary thresholds and be run independently of the model outputs from main.py.
 
 (Note: A good chunk of this project was vibe-coded with Claude sonnet/opus 4.6 models.)
+
+# Usage
+```
+python main.py
+```
+(output is to stdout by default)
+
+Note: it will take several minutes to run. The output tables are a subset of the full model.
+Partial progress towards next charge states have been aggregated away.

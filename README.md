@@ -9,3 +9,5 @@ Some analysis tools for interpreting the timing thresholds are provided as well:
 2. scan_analysis.py will display all scan routes (or partial scan routes) that are above various input thresholds.
 
 These analysis tools can take in arbitrary thresholds and be run independently of the model outputs from main.py.
+
+(Note: A good chunk of this project was vibe-coded with Claude sonnet/opus 4.6 models.)
